@@ -1,0 +1,83 @@
+/* style.css */
+@font-face {
+    font-family: myFirstFont;
+    src: url(Speda-Bold.woff);
+  }
+body {
+    font-family: myFirstFont; /* Fallback font family */
+    text-align: center; /* Center-align text */
+    margin: 0; /* Remove default margin */
+    margin: 10px; 
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(hello-kitty-3840x2160-9983.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center; /* Center-align items vertically */
+    height: 100vh; /* Make the container full viewport height */
+    position: relative;
+}
+
+#question {
+    font-family: myFirstFont; /* Apply Sacramento font to the question */
+    font-size: 48px; /* Set font size for the question */
+}
+h6{
+    margin: 10px;
+    text-align: center;
+}
+
+#options {
+    margin-top: 20px; /* Add space above the options */
+}
+
+button {
+    padding: 10px 20px; /* Set padding for buttons */
+    margin: 10px; /* Set margin around buttons */
+    font-size: 26px; /* Set font size for buttons */
+    font-family: myFirstFont;
+    background-color: #FB607F; /* Set button background color */
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+.images {
+    border-radius: 10px;
+    height: 150px;
+    margin: auto;
+}
+.helloK{
+    position: relative;
+    width: 100%;
+}
+.gif{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 0px;
+    left: 0px;
+}
+.gif2{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    bottom: 0px;
+    left: 0px;
+}
+.no{
+    margin: 0;
+    padding: 0;
+}
+
+    
+
